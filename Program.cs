@@ -16,10 +16,19 @@ namespace LeetCode
                 Console.WriteLine(i);
             }*/
         //l1 = [2,4,3], l2 = [5,6,4]
-         ListNode l1 = new ListNode(2,new ListNode(4,new ListNode(3)));
-         ListNode l2 = new ListNode(5,new ListNode(6,new ListNode(4)));
+         
+         //AddTwoSum
+        //  ListNode l1 = new ListNode(2,new ListNode(4,new ListNode(3)));
+        //  ListNode l2 = new ListNode(5,new ListNode(6,new ListNode(4)));
 
-            ListNode result = new AddTwoNumbersSolution().AddTwoNumbers(l1,l2);
+        //     ListNode result = new AddTwoNumbersSolution().AddTwoNumbers(l1,l2);
+
+         TreeNode treeNode = new TreeNode(2,new TreeNode(1),new TreeNode(3));
+        
+         new ValidateBinarySearchTree().IsValidBST(treeNode);
+        //string input = "pwwkew";
+        //var result   = new LongestSubstringWithoutRepeatingCharacters()
+        //                .LengthOfLongestSubstring(input);
                        
         }
     }

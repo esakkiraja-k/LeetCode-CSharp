@@ -3,3 +3,6 @@ bin/Debug/netcoreapp3.1/LeetCode.pdb
 obj/Debug/netcoreapp3.1/LeetCode.csproj.CoreCompileInputs.cache
 obj/Debug/netcoreapp3.1/LeetCode.dll
 obj/Debug/netcoreapp3.1/LeetCode.pdb
+
+.fake
+/obj/Release/netcoreapp3.1
