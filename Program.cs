@@ -23,13 +23,15 @@ namespace LeetCode
 
         //     ListNode result = new AddTwoNumbersSolution().AddTwoNumbers(l1,l2);
 
-         TreeNode treeNode = new TreeNode(2,new TreeNode(1),new TreeNode(3));
+        //  TreeNode treeNode = new TreeNode(2,new TreeNode(1),new TreeNode(3));
         
-         new ValidateBinarySearchTree().IsValidBST(treeNode);
+        //  new ValidateBinarySearchTree().IsValidBST(treeNode);
         //string input = "pwwkew";
         //var result   = new LongestSubstringWithoutRepeatingCharacters()
         //                .LengthOfLongestSubstring(input);
                        
+        var obj = new AddDigitClass();                       
+        obj.AddDigits(38);
         }
     }
 }
